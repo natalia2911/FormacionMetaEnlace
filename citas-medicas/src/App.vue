@@ -6,11 +6,12 @@
 </template>
 
 <script>
-import MenuComponent from "./components/MenuC.vue";
+import MenuComponent from "./components/modules/MenuC.vue";
+import CalendarWidget from './components/CalendarWidget.vue'
 
 export default {
   name: "App",
-  components: { MenuComponent },
+  components: { MenuComponent, Calendar},
 };
 </script>
 
